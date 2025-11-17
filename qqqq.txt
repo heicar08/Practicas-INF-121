@@ -1,0 +1,71 @@
+puedes lleganarlo con el enunciado de que te presento a continuacion porfa
+
+ejercicio 1
+Spoty esta preparando un anueva version exclusiva para latino america. Esta nueva version debe permitir registrar usuarios, getionar artistas y administrar catalogo de de canciones disponibles.
+
+la plataforma distinge ente ususarios gratuitos y premium. Cada usuario. Cada usuario puede escuchar multiples canciones, y el sistema debe registrar las canciones reproducidas por cadad una de las canciones reproducidas por cada uno. 
+
+el equipo de desarrollo tambien desea poder optener las estaditicas sobre los tipos de usuario, como el numero total de usuarios premium o la cantidad de canciones reproducidas. por su parte , los artisatas tienen tienen segdores qye aumentan conforme a sus canciones, pero estas no pueden exsistir sin su creador. Spoty, como empresa, mantiene un alista de artistas disponibles y los usuarios registados en la plataorma, sin crear o eliminar directamente a estos(solo los administradores) 
+
+a) completa el diagrama con almenmos 3 atributos en cada clase y 2 metodos en el diagrama  
+
+
+ejercicio 2
+ 
+Segun el siguiente deagrama de clases: se pide 
+ 
+ "aqui va el diagrama"
+
+ a)implementar un metodo para agreagar la primera persona a la cabina nroX(permite un maximo de 10 personas o que no se supere el peso maximo de 850 kg por cabina).
+ b)n verificar que todas las cabinas cumplan las reglas de abordo de todas las lineas de mi teleferico.
+ c)Calcular el ingreso total de todas las lineras 
+    - tarifa preferencial: Persona menores a 25 años y mayores a 60 pagan 1.50 bs
+    - tarifa regular 3bs
+ d) Mostrar a la linea con mas ingreso solo son tarifa regular.
+ 
+ Nota: La imprementacion y solucion debe estar de acuerdo al digrama, solamente se tiene las lineas; Amarilla, Rojo y Verde, se pueden agregar nmetodos adicionales en las todas las clases, 
+ No se puede agragar atributos adicionales en ninguna clase. 
+
+
+
+MiTeleferico
+-lineas: Linea[]
+-cantidadIngresos:float
+
++MiTeleferico
++agreagarPersonaFila(Persona p, String linea)
++agrearCabinas(String linea)
+
+
+Linea 
+-Color:String
+-filaPersonas:Persona[]
+-cabinas:Cabina[]
+-cantidadCabinas:int   
+
+
++linea(color)
++agregarPersona(Persona p)
++agregarCabina(nroCab)
+
+
+Cabina 
+
+-nroCabina:int 
+-personasAbordo:Personal[]
+
++cabina(nroCabina)
++agreagarPersona(Persona p)
+
+
+Persona 
+
+-nombre: String
+-edad:int
+-pesoPersona:float
+
+
++Persona (nombre, edad, peso)
+
+
+
